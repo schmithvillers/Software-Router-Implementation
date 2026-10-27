@@ -1,0 +1,24 @@
+
+# Maven build output
+target/
+
+# Java runtime artifacts
+*.class
+*.log
+
+# macOS
+.DS_Store
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies and build output
+node_modules/
+dist/
